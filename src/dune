@@ -1,3 +1,36 @@
 (executable
  (name day1)
- (libraries angstrom ))
+ (modules day1)
+ (libraries angstrom str))
+
+
+(executable
+ (name day2)
+ (modules day2)
+ (libraries angstrom str))
+
+
+(executable
+ (name day3)
+ (modules day3)
+ (libraries angstrom str))
+
+(executable
+ (name day4)
+ (modules day4)
+ (libraries angstrom str))
+
+(executable
+ (name day5)
+ (modules day5)
+ (libraries angstrom str))
+
+(executable
+ (name day6)
+ (modules day6)
+ (libraries angstrom str))
+
+(executable
+ (name day7)
+ (modules day7)
+ (libraries angstrom str))
