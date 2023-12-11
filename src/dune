@@ -34,3 +34,8 @@
  (name day7)
  (modules day7)
  (libraries angstrom str))
+
+(executable
+ (name day9)
+ (modules day9)
+ (libraries angstrom str))
